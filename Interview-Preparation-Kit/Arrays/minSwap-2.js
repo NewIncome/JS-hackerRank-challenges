@@ -1,13 +1,17 @@
 function minimumSwaps(arr) {
   console.time('minS');
   let swaps = 0;
-  while((arr[i]-1) !== i) {
-    const swVl = arr[i];
-    console.log(arr[i], arr[swVl-1]);
-    arr[i] = arr[swVl-1];
-    arr[swVl-1] = swVl;
-    swaps += 1;
-    console.log(arr);
+  let i = 0;
+  while(i < arr.length) {
+    if ((arr[i]-1) === i) i += 1;
+    else {
+      const swVl = arr[i];
+      console.log(arr[i], arr[swVl-1]);
+      arr[i] = arr[swVl-1];
+      arr[swVl-1] = swVl;
+      swaps += 1;
+      console.log(arr);
+    }
   }
   console.timeEnd('minS');
   return swaps;
