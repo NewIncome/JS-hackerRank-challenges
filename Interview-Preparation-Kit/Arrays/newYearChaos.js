@@ -1,59 +1,31 @@
 function minimumBribes(q) {
-  // Write your code here
-  // // Passed 3 out of 11...
-  // let ar = new Array(...q)
-  // let bribes = [];
-  // q.forEach((e, i) => {
-  //   ar.shift();
-  //   ar.forEach(ee => {
-  //     if (e > ee) {
-  //       // console.log(`e:${e} < ee:${ee}, bribes:${bribes}`)
-  //       bribes[i] & Number(bribes[i]) ? bribes[i] += 1 : bribes.push(1)
-  //       if (bribes[i] > 2) bribes[0] = "Too chaotic";
-  //     }
-  //   });
-  // });
-  // return console.log(typeof bribes[0] == 'string' ? bribes[0] : bribes.length);
-
-  // // Passed 1. didn't check backward
-  // let bribes = [];
+  console.time('nychaos');
+  let bribes = 0, bribe = 0, i = 0;
   // for (let i=0; i<q.length; i++) {
-  //   const bN = bribes.length;
-  //   // console.log(bribes);
-  //   for (let j=i+1; j<q.length; j++) {
-  //     if (q[i] > q[j]) {
-  //       // console.log(q[i], q[j]);
-  //       bribes[bN] ? bribes[bN] += 1 : bribes.push(1)
-  //       if (bribes[bN] > 2) return console.log("Too chaotic");
-  //     } else break;
+  //   let bribe = 0;
+  //   for (let j=i+1; j<q.length; j++) { // 4loop used 2 stop loop if subs>2
+  //     if (q[i] > q[j]) bribe += 1;
+  //     if (bribe > 2) return console.log("Too chaotic");
   //   }
+  //   bribes += bribe;
   // }
-  // return console.log(bribes.reduce((ac,cr) => ac+cr));
 
-  // // 3rd Try, by chechink for < to the right. // passed 7/11. (4)TIMEOUTS
-  console.time('codezup');
-  let bribes = 0;
-  for (let i=0; i<q.length; i++) {
-    let bribe = 0;
-    for (let j=i+1; j<q.length; j++) { // 4loop used 2 stop loop if subs>2
-      if (q[i] > q[j]) bribe += 1;
-      if (bribe > 2) return console.log("Too chaotic");
-    }
-    bribes += bribe;
+  let j = i+1;
+  while (i < q.length) {
+    if (q[i] > q[j]) bribe += 1;
+    if (bribe > 2) return console.log("Too chaotic");
+
+    // console.log(`i:${i}, j:${j}`);
+    if (j >= q.length-1) { // for 2nd loop func conditions
+      i += 1;
+      bribes += bribe;
+      bribe = 0
+      j = i+1;
+    } else j += 1;
   }
-  console.log(bribes);
-  console.timeEnd('codezup');
 
-  // 4th Try, by math with index && check 1st to right. Only passes 3...
-  // let bribes = 0;
-  // for (let i=0; i<q.length; i++) { // 4loop used 2 stop loop if subs>2
-  //   const subs = (q[i]-1)-i;
-  //   if (subs > 0 || q[i] > q[i+1]) bribes += Math.abs(subs);
-  //   if (subs > 2) return console.log("Too chaotic");
-  //   // console.log(`q[i]:${q[i]}, i:${i}`);
-  // }
-  // console.log(bribes);
-  // console.log(bribes.reduce((ac,cr) => ac+cr));
+  console.log(bribes);
+  console.timeEnd('nychaos');
 }
 
 // T.C. 0
