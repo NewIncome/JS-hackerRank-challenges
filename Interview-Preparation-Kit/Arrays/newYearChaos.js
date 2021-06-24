@@ -11,12 +11,13 @@ function minimumBribes(q) {
         p3 += 1;
         break;
       case p2:
-        // 1 2 3 -> 
+        // ~2 1 3 -> ~1 3 4  ~possibly
         tBribes += 1;
         p2 = p3;
         p3 += 1;
         break;
       case p3:
+        // ~3 1 2 -> ~1 2 4  ~possibly
         tBribes += 2;
         p3 += 1;
         break;
