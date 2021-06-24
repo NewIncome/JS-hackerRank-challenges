@@ -1,30 +1,29 @@
 function minimumBribes(q) {
   console.time('nychaos');
-  let bribes = 0, bribe = 0, i = 0;
-  // for (let i=0; i<q.length; i++) {
-  //   let bribe = 0;
-  //   for (let j=i+1; j<q.length; j++) { // 4loop used 2 stop loop if subs>2
-  //     if (q[i] > q[j]) bribe += 1;
-  //     if (bribe > 2) return console.log("Too chaotic");
-  //   }
-  //   bribes += bribe;
-  // }
+  let tBribes = 0, p1 = 1, p2 = 2, p3 = 3;
 
-  let j = i+1;
-  while (i < q.length) {
-    if (q[i] > q[j]) bribe += 1;
-    if (bribe > 2) return console.log("Too chaotic");
-
-    // console.log(`i:${i}, j:${j}`);
-    if (j >= q.length-1) { // for 2nd loop func conditions
-      i += 1;
-      bribes += bribe;
-      bribe = 0
-      j = i+1;
-    } else j += 1;
+  for(let i=0 ; i<q.length ; i++) {
+    switch (q[i]) {
+      case p1:
+        p1 = p2;
+        p2 = p3;
+        p3 += 1;
+        break;
+      case p2:
+        tBribes += 1;
+        p2 = p3;
+        p3 += 1;
+        break;
+      case p3:
+        tBribes += 2;
+        p3 += 1;
+        break;
+      default:
+        return console.log("Too chaotic");
+    }
   }
 
-  console.log(bribes);
+  console.log(tBribes);
   console.timeEnd('nychaos');
 }
 
@@ -41,3 +40,5 @@ minimumBribes([1,2,5,3,4,7,8,6]) // 4
 console.log('');
 // T.C. 11
 minimumBribes([1,2,5,3,4,7,8,6]) // 4
+
+// correct solution by  Brian Dyck (https://www.youtube.com/watch?v=LgszjFykAbE)
