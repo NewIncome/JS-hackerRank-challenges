@@ -5,11 +5,13 @@ function minimumBribes(q) {
   for(let i=0 ; i<q.length ; i++) {
     switch (q[i]) {
       case p1:
+        // 1 2 3 -> 2 3 4
         p1 = p2;
         p2 = p3;
         p3 += 1;
         break;
       case p2:
+        // 1 2 3 -> 
         tBribes += 1;
         p2 = p3;
         p3 += 1;
