@@ -1,5 +1,6 @@
 function maximumToys(prices, k) {
   // Write your code here
+  prices = prices.sort((a,b) => b-a);
   let numToys = 0;
   for (let i=0 ; i<prices.length ; i++) {
     let toys = [prices[i]], sum = prices[i];
