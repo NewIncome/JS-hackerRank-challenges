@@ -23,30 +23,6 @@ function activityNotifications(expenditure, d) {
     if (expenditure[i+d] >= 2*median) operations += 1;
   }
 
-  // --- First Solutoiun Intent :'( . Passed 3, rest TLE---
-  // while (i<expenditure.length-d) {
-  //     if (j < d) {
-  //         if (!medianArr[0]) medianArr.push(expenditure[j+i]);
-  //         else {
-  //           if (medianArr[j-1] < expenditure[j+i]) medianArr.push(expenditure[j+i]);
-  //           else if (expenditure[j+i] <= medianArr[0]) medianArr.unshift(expenditure[j+i]);
-  //           else medianArr.splice(j-1,0,expenditure[j+i]);
-  //           console.log('j:', j, ',', medianArr[j-1], '>', expenditure[j+i], '?', medianArr);
-  //         }
-  //         j += 1;
-  //     }
-  //     else {
-  //       console.log('inside ELSE');
-  //         let md = Math.floor(medianArr.length/2);
-  //         median = medianArr%2 === 0 ? (medianArr[md-1] + medianArr[md]) / 2 : medianArr[md];
-  //         console.log(medianArr, median, `${expenditure[j+i]} >= 2*${median}`);
-  //         if (expenditure[j+i] >= 2*median) operations += 1;
-          
-  //         j = 0;
-  //         medianArr = [];
-  //         i += 1;
-  //     }
-  // }
   return operations;
 }
 
