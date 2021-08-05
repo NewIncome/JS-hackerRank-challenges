@@ -32,3 +32,6 @@ console.log(activityNotifications([2,3,4,2,3,6,8,4,5], 5));
 console.log(activityNotifications([1,2,3,4,4], 4));
 // T.C.2 -> 1
 console.log(activityNotifications([10,20,30,40,50], 3));
+
+// Must try a more mathematical solution OR O(Xn) solution(s) instead of O(n²)
+
