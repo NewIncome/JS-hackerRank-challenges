@@ -1,17 +1,15 @@
+// return int: the number of deletions so there are no matching adjacent letters
 function alternatingCharacters(s) {
   // Write your code here
+  console.time('stringCheck');
   let arrS = s.split('');
   let cnt = 0;
+  let prevS = arrS[0];
   for (let i=0 ; i<(arrS.length-1) ; i++) {
-    // console.log(arrS[i], ',', arrS[i+1], ',', arrS[i-1] === arrS[i]);
-    if (arrS[i] === arrS[i+1]) {
-      arrS.splice((i+1),1);
-      cnt += 1;
-      i = i - 1;
-    }
+    prevS === arrS[i+1] ? cnt += 1 : prevS = arrS[i+1];
   }
+  console.timeEnd('stringCheck');
   return cnt;
-  // return // int: the number of deletions so there are no matching adjacent letters
 }
 
 // T.C.0: 
