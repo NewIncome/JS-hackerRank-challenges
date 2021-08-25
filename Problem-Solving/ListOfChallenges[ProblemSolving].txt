@@ -3,7 +3,30 @@
 ---------------------------------------
 // [ ] == unsolved   ;   [X] == solved   ;   [/] == with TLE errors
 
- 1.[ ] - 
- 2.[ ] - 
- 3.[ ] - 
- 4.[ ] - 
+ 1.[ ] - Solve me first
+ 2.[ ] - Simple array sum
+ 3.[ ] - Compare Triplets
+ 4.[ ] - A very big sum
+ 5.[ ] - Diagonal difference
+ 6.[ ] - Plus minus
+ 7.[ ] - Staircase
+ 8.[ ] - Mini-max sum
+ 9.[ ] - Birthday cake candles
+10.[ ] - Time conversion
+11.[ ] - Grading students
+12.[ ] - Breaking the records
+13.[ ] - Divisible sum pairs
+14.[ ] - Bill division
+15.[ ] - Sales by match
+16.[ ] - Counting valleys
+17.[ ] - Cats and a Mouse
+18.[ ] - The hurdle race
+19.[ ] - Beautiful days at the movies
+20.[ ] - repeated string
+21.[ ] - Jumping on the clouds
+22.[ ] - 3D surface area
+23.[ ] - Alternating characters
+24.[ ] - Find the median
+25.[ ] - Palindrome Index
+26.[ ] - Anagram
+27.[ ] - New Year Chaos
