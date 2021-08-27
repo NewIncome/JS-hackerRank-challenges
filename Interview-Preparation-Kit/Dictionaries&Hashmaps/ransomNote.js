@@ -1,16 +1,5 @@
 function checkMagazine(magazine, note) {
   let replicate = 0;
-
-  /*
-  for (let i in note) {
-    for (let j=i ; j<magazine.length ; j++) {
-      if (note[i] === magazine[j]) {
-        replicate += 1;
-        break;
-      }
-    }
-  }
-  */
   for (let i=0 ; i<note.length ; i++) {
     let indx = magazine.indexOf(note[i]);
     if(indx != -1) {
