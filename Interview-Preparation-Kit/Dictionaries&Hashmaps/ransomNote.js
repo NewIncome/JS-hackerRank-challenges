@@ -11,7 +11,7 @@ function checkMagazine(magazine, note) {
     }
   }
   */
-  for (let i=0 ; i<magazine.length ; i++) {
+  for (let i=0 ; i<note.length ; i++) {
     let indx = magazine.indexOf(note[i]);
     if(indx != -1) {
       magazine.splice(indx,1);
@@ -24,10 +24,8 @@ function checkMagazine(magazine, note) {
 // T.C.0: Yes
 checkMagazine(new Object(['give','me','one','grand','today','night']), new Object(['give','one','grand','today']));
 // T.C.1: No
-/*
 checkMagazine(new Object(['two','times','three','is','not','four']), new Object(['two','times','two','is','four']));
 // T.C.2: No
 checkMagazine(new Object(['ive','got','a','lovely','bunch','of','coconuts']), new Object(['ive','got','some','coconuts']));
 // T.C.3: Yes
 checkMagazine(new Object(['apgo','clm','w','lxkvg','mwz','elo','bg','elo','lxkvg','elo','apgo','apgo','w','elo','bg']), new Object(['elo','lxkvg','bg','mwz','clm','w']));
-*/
