@@ -10,6 +10,6 @@ Compilation of coding challenges from the HackerRank site, solved with the Javas
 ---
 
 ## Challenge List per section
-1. [Interview Preparation Kit](/Interview-Preparation-Kit/interview-prep-kit)
-2. [Problem Solving](/Problem-Solving/problem-solving)
-3. [Microverse Coding Challenges](/Microverse-Coding-Challenges/microverse-c-challenges)
+1. <!-- [Interview Preparation Kit](/Interview-Preparation-Kit/interview-prep-kit) -->
+<!-- 2. [comment][Problem Solving](/Problem-Solving/problem-solving)
+3. [comment][Microverse Coding Challenges](/Microverse-Coding-Challenges/microverse-c-challenges) -->
