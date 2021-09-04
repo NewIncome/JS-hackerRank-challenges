@@ -3,20 +3,20 @@
 ---------------------------------------
 // [ ] == unsolved   ;   [X] == solved   ;   [/] == with TLE errors
 
- 1.[ ] - Solve me first
- 2.[ ] - Simple array sum
- 3.[ ] - Compare Triplets
- 4.[ ] - A very big sum
- 5.[ ] - Diagonal difference
+ 1.[X] - Solve me first
+ 2.[X] - Simple array sum
+ 3.[X] - Compare Triplets
+ 4.[X] - A very big sum
+ 5.[X] - Diagonal difference
  6.[ ] - Plus minus
- 7.[ ] - Staircase
- 8.[ ] - Mini-max sum
- 9.[ ] - Birthday cake candles
+ 7.[X] - Staircase
+ 8.[X] - Mini-max sum
+ 9.[X] - Birthday cake candles
 10.[ ] - Time conversion
 11.[ ] - Grading students
 12.[ ] - Breaking the records
-13.[ ] - Divisible sum pairs
-14.[ ] - Bill division
+13.[X] - Divisible sum pairs
+14.[ ] - Bill division (NOT FOUND)
 15.[ ] - Sales by match
 16.[ ] - Counting valleys
 17.[ ] - Cats and a Mouse
