@@ -18,15 +18,15 @@
 13.[X] - Divisible sum pairs
 14.[ ] - Bill division (NOT FOUND)
 15.[ ] - Sales by match
-16.[ ] - Counting valleys
-17.[ ] - Cats and a Mouse
-18.[ ] - The hurdle race
-19.[ ] - Beautiful days at the movies
-20.[ ] - repeated string
-21.[ ] - Jumping on the clouds
-22.[ ] - 3D surface area
-23.[ ] - Alternating characters
-24.[ ] - Find the median
-25.[ ] - Palindrome Index
-26.[ ] - Anagram
-27.[ ] - New Year Chaos
+16.[X] - Counting valleys
+17.[X] - Cats and a Mouse
+18.[X] - The hurdle race
+19.[X] - Beautiful days at the movies
+20.[X] - repeated string
+21.[X] - Jumping on the clouds
+22.[X] - 3D surface area
+23.[X] - Alternating characters
+24.[X] - Find the median
+25.[X] - Palindrome Index
+26.[X] - Anagram
+27.[X] - New Year Chaos
