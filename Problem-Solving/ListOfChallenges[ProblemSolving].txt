@@ -16,7 +16,7 @@
 11.[ ] - Grading students
 12.[ ] - Breaking the records
 13.[X] - Divisible sum pairs
-14.[ ] - Bill division (NOT FOUND)
+14.[X] - Bill division (called: bon-appetit)
 15.[ ] - Sales by match
 16.[X] - Counting valleys
 17.[X] - Cats and a Mouse
@@ -30,3 +30,4 @@
 25.[X] - Palindrome Index
 26.[X] - Anagram
 27.[X] - New Year Chaos
+33.[X] - Electronics Shop
