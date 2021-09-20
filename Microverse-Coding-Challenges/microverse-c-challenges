@@ -5,13 +5,13 @@
 
 1. [ ] FizzBuzz
 2. [ ] Drawing Book
-3. [ ] Electronics Shop
+3. [X] Electronics Shop
 4. [ ] Picking Numbers
-5. [ ] The Hurdle Race
+5. [X] The Hurdle Race
 6. [ ] Angry Professor
 7. [ ] Find Digits
 8. [ ] Library Fine
-9. [ ] Repeated String
+9. [X] Repeated String
 10.[ ] Equalize the Array
 11.[ ] Encryption
 12.[ ] Beautiful Triplets
@@ -20,18 +20,21 @@
 15.[ ] Lisa's Workbook
 16.[ ] Fair Rations
 17.[ ] Cavity Map
-18.[ ] Manasa and Stones
+18.[/] Manasa and Stones
 19.[ ] Happy Ladybugs
-20.[ ] 3D Surface Area
+20.[X] 3D Surface Area
 21.[ ] Halloween Sale
-22.[ ] Anagram
-23.[ ] Palindrome Index
+22.[X] Anagram
+23.[X] Palindrome Index
 24.[ ] Game of Thrones - I
-25.[ ] Birthday Cake Candles
-26.[ ] Divisible Sum Pairs
+25.[X] Birthday Cake Candles
+26.[X] Divisible Sum Pairs
 27.[ ] Insertion Sort - Part 1
 28.[ ] Insertion Sort - Part 2
-29.[ ] Find the Median
-30.[ ] Bill Division
-31.[ ] Staircase
-32.[ ] Project Euler #2: Even Fibonacci numbers
+29.[X] Find the Median
+30.[X] Bill Division (now called: bon-appetit)
+31.[X] Staircase
+32.[ ] Project Euler #2: Even Fibonacci numbers (now called: Fibonacci numbers)
+
+Link to projects list in HackerRank:
+https://www.hackerrank.com/contests/microverse-coding-challenges/challenges
