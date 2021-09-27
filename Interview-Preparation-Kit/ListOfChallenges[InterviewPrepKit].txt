@@ -3,7 +3,36 @@
 --------------------------------------
 // [ ] == unsolved   ;   [X] == solved   ;   [/] == with TLE errors
 
- 1.[ ] - 
- 2.[ ] - 
- 3.[ ] - 
- 4.[ ] - 
+ARRAYS
+ 1.[X] - 2D Array - DS
+ 2.[X] - Arrays: Left Rotation
+ 3.[X] - New Year Chaos
+ 4.[X] - Minimum Swaps 2
+ 5.[X] - Array Manipulation
+
+WARM-UP CHALLENGES
+ 1.[X] - Sales by Match
+ 2.[X] - Counting Valleys
+ 3.[X] - Jumping on the Clouds
+ 4.[X] - Repeated String
+
+DICTIONARIES AND HASHMAPS
+ 1.[X] - Two Strings
+ 2.[X] - Hash Tables: Ransom Note
+ 3.[ ] - Sherlock and Anagrams
+ 4.[ ] - Count Triplets
+ 5.[ ] - Frequency Queries
+
+SORTING
+ 1.[/] - Mark and Toys
+ 2.[X] - Sorting: Bubble Sort
+ 3.[ ] - Sorting: Comparator
+ 4.[/] - Fraudulent Activity Notifications
+ 5.[ ] - Merge Sort: Counting Inversions
+
+STRING MANIPULATION
+ 1.[ ] - Sherlock and the Valid String
+ 2.[X] - Strings: Making Anagrams
+ 3.[X] - Alternating Characters
+ 4.[ ] - Special String Again
+ 5.[ ] - Common Child
