@@ -10,9 +10,9 @@ function sherlockAndAnagrams(s) {
   for(let i=0 ; i<s.length ; i++) { // start
     for(let j=1 ; j<s.length ; j++) { // increment sCheck size
       let curr = s.slice(i,i+j);
-      for(let k=i+1 ; k<(s.length-j) ; k++) { // end
-        let anagramMaybe = curr.split('').reverse().join('');
-        console.log(`ijk:${i}${j}${k}, curr:${curr}, rruc:${anagramMaybe}`);
+      for(let k=i+1 ; k<=(s.length-j) ; k++) { // end
+        let anagramMaybe = s.slice(k,k+j).split('').reverse().join('');
+        console.log(`ijk:${i}${j}${k}, curr:${curr}, rruc:${anagramMaybe} ; s:${s} ${s.length}`);
         if(curr == anagramMaybe) anagramCnt += 1;
       }
     }
