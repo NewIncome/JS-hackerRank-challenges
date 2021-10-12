@@ -19,7 +19,7 @@ WARM-UP CHALLENGES
 DICTIONARIES AND HASHMAPS
  1.[X] - Two Strings
  2.[X] - Hash Tables: Ransom Note
- 3.[ ] - Sherlock and Anagrams
+ 3.[/] - Sherlock and Anagrams
  4.[ ] - Count Triplets
  5.[ ] - Frequency Queries
 
