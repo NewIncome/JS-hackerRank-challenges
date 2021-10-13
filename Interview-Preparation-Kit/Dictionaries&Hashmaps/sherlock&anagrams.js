@@ -11,9 +11,10 @@ function sherlockAndAnagrams(s) {
     for(let j=1 ; j<s.length ; j++) { // increment sCheck size
       let curr = s.slice(i,i+j);
       for(let k=i+1 ; k<=(s.length-j) ; k++) { // end
-        let anagramMaybe = s.slice(k,k+j).split('').reverse().join('');
-        // console.log(`ijk:${i}${j}${k}, curr:${curr}, rruc:${anagramMaybe} ; s:${s} ${s.length}`);
-        if(curr == anagramMaybe) anagramCnt += 1;
+        let remStr = s.slice(k,k+j);
+        let rtSmer = remStr.split('').reverse().join('');
+        // console.log(`ijk:${i}${j}${k}, curr:${curr}, rruc:${anagramMaybe} ; s:${s} ${s.length}, cnt:${anagramCnt}`);
+        if(curr == remStr || curr == rtSmer) anagramCnt += 1;
       }
     }
   }
