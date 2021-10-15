@@ -20,7 +20,18 @@ function countTriplets(arr, r) {
     // else i++
   // )
   // CNT
-  // 
+  let reps = {}, cnt = 0;
+  arr.forEach(e => reps[e] = (reps[e] || 0) + 1);
+  
+  for(let m=0 ; m<arr.length-2; m++) {
+    let i = arr[m], j = i*r, k = j*r;
+    if(arr.includes(j) && arr.includes(k)) {
+      console.log(`i:${i},j:${j},k:${k},cnt:${cnt} : (${reps[i]}*${reps[j]}*${reps[k]})`);
+      cnt += (1 * reps[j] * reps[k])
+    }
+  }
+  
+  return cnt
 }
 
 // T.C.0: 2
