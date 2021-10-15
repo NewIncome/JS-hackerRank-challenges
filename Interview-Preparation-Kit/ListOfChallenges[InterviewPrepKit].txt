@@ -20,7 +20,7 @@ DICTIONARIES AND HASHMAPS
  1.[X] - Two Strings
  2.[X] - Hash Tables: Ransom Note
  3.[X] - Sherlock and Anagrams
- 4.[ ] - Count Triplets
+ 4.[/] - Count Triplets
  5.[ ] - Frequency Queries
 
 SORTING
