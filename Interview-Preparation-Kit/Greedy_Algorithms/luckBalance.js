@@ -1,4 +1,19 @@
 function luckBalance(k, contests) {
+	let luck = 0, loose = 0;
+  contests.forEach(e => {
+    console.log(`e:${e}, luck:${luck}`);
+    if(e[1] == 0) {
+      luck += e[0];
+    } else {
+      if(loose < k) {
+        luck += e[0];
+        loose += 1;
+      } else {
+        luck -= e[0];
+      }
+    }
+  });
+  return luck;
 }
 
 // T.C.0: 29
