@@ -1,5 +1,6 @@
 function luckBalance(k, contests) {
-	let luck = 0, loose = 0;
+	contests.sort((a,b) => b[0]-a[0]);
+  let luck = 0, loose = 0;
   contests.forEach(e => {
     console.log(`e:${e}, luck:${luck}`);
     if(e[1] == 0) {
