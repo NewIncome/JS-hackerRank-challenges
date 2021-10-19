@@ -39,4 +39,7 @@ STRING MANIPULATION
 
 GREEDY ALGORITHMS
  1.[X] - Luck Balance
-
+ 2.[ ] - Minimum Absolute Difference in an Array
+ 3.[ ] - Greedy Florist
+ 4.[ ] - Max Min
+ 5.[ ] - Reverse Shuffle Merge
