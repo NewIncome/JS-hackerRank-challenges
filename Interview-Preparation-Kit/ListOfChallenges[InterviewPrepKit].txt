@@ -36,3 +36,7 @@ STRING MANIPULATION
  3.[X] - Alternating Characters
  4.[ ] - Special String Again
  5.[ ] - Common Child
+
+GREEDY ALGORITHMS
+ 1.[X] - Luck Balance
+
